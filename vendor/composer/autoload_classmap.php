@@ -1760,6 +1760,7 @@ return array(
     'League\\Flysystem\\Util' => $vendorDir . '/league/flysystem/src/Util.php',
     'League\\Flysystem\\Util\\ContentListingFormatter' => $vendorDir . '/league/flysystem/src/Util/ContentListingFormatter.php',
     'League\\Flysystem\\Util\\MimeType' => $vendorDir . '/league/flysystem/src/Util/MimeType.php',
+    'League\\Flysystem\\Util\\StreamHasher' => $vendorDir . '/league/flysystem/src/Util/StreamHasher.php',
     'League\\Glide\\Api\\Api' => $vendorDir . '/league/glide/src/Api/Api.php',
     'League\\Glide\\Api\\ApiInterface' => $vendorDir . '/league/glide/src/Api/ApiInterface.php',
     'League\\Glide\\Filesystem\\FileNotFoundException' => $vendorDir . '/league/glide/src/Filesystem/FileNotFoundException.php',
