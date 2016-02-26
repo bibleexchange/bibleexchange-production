@@ -2,20 +2,31 @@
 
 Route::get('test','TestReactController@test');
 
-/*
+
 Route::get('/bs',function(){
 	
 //
 
 	$string = '';
+	$first = [];
 	
-	foreach($array_1_a AS $a){
-		$string .= '(\'' . \BibleExchange\Entities\BibleVerse::referenceTranslator($a[0])[0] . '\',\'' . $a[1] .'\'),';
+	foreach(\BibleExchange\Entities\BibleBook::all() AS $b){
+		$first[$b->id] = $b;
 	}
 	
-	file_put_contents('1-gen-lev-7.sql',$string);
+	foreach($first AS $f){
+		$first[$f->id]['chapters'] = \BibleExchange\Entities\BibleBook::find($f->id)->chapters->count();
+	}
+	
+	foreach($first AS $b){
+		$string .= $b . ',';
+	}
+	
+	$string .= '';
+	
+	dd($string);
 });
-
+/*
 Route::get('/blllll', function(){
 	
 	$myXMLData = file_get_contents('html-entire-bible-6.xml');
