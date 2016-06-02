@@ -20,8 +20,8 @@
 		
 		@yield('head')
 		
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans&subset=latin">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo&subset=latin">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans&subset=latin">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo&subset=latin">
 		
 		<link rel="apple-touch-icon" sizes="57x57" href="http://bible.exchange/images/be-apple-icon/be-apple-icon-57x57px.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="http://bible.exchange/images/be-apple-icon/be-apple-icon-72x72px.png" />
